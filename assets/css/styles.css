@@ -263,14 +263,18 @@ p {
 .hero__img {
     height: calc (100% - 360px);
     width: calc(100vw / 5);
+    min-width: 330px;
+    min-height: 540px;
     bottom: 0;
     object-fit: cover;
     border-radius: 12px;
     justify-content: flex-end;
 }
 .hero__img--small {
-    min-height: calc(100% - 500px);
-    width: calc(100vw / 6);
+    height: calc(100% - 500px);
+    min-width: calc(100vw / 6);
+    max-width: 70%;
+    min-height: 410px;
     object-fit: cover;
     overflow: hidden;
     position: absolute;
